@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+#main{
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: dimgray;
+    text-align: center;
+    
+}
+
+#socials-bar {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

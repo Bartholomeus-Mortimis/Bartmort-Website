@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Lilita One';
     src: local(),
-        url('../assets/fonts/SuperFoods.ttf')    
+        url('../assets/fonts/LilitaOne-Regular.ttf')    
     ;
 }
 
@@ -16,10 +16,9 @@ body {
     background-color: var(--primary_color);
     color: var(--accent2);
 
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-family: "Lilita One";
+    font-weight: lighter;
     font-style: normal;
-    font-stretch: ;
     font-size: 1.5rem;
 }
 

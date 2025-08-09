@@ -8,10 +8,10 @@
 
 
 :root {
-    --primary_color: rgb(34, 40, 49);
-    --secondary_color: rgb(49, 54, 63);
-    --accent1: rgb(118, 171, 174);
-    --accent2: rgb(220, 220, 220);
+    --primary_color: rgb(83, 83, 83);
+    --secondary_color: black;
+    --accent1: #FE7743;
+    --accent2: #EFEEEA;
 }
 
 
@@ -25,21 +25,35 @@ body {
     font-size: 1.5rem;
 }
 
+
 a:hover {
     color: var(--accent1);
 }
 
+#background-img {
+    position: fixed;
+    z-index: -10;
+    height: 100%;
+}
+
 #main{
-    background-color: var(--primary_color);
+    /*background-color: var(--primary_color);*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 
-    border-style: dotted;
+    /*border-style: dotted;*/
     
 }   
 
+#main-title {
+    padding-top: 60px;
+}
+
+#socials-bar {
+    padding: 30px;
+}
 
 #games-list{
     display: flex;
@@ -48,11 +62,12 @@ a:hover {
 }
 
 .game-capsule {
-    width: 400px;
-    height: 610px;
+    width: 350px;
+    height: 440px;
 
     border-style: solid;
-    border-radius: 1%;
+    border-width: 10px;
+    border-radius: 5%;
 
     margin: 0.4cm 0.3cm 0.4cm;
 }
@@ -63,7 +78,7 @@ a:hover {
 
 .game-capsule img{
     width: 80%;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 
@@ -82,9 +97,22 @@ a:hover {
     background-color: rgb(0, 0, 0);
 }
 
-#footer {
-    padding: 8px
+#VegasBlitz {
+    background-color: #000000;  
 }
+
+#FriendFire {
+    background-color: #ffce96;  
+}
+
+#CeintAsteroid {
+    background-color: #1a1a1a;
+}
+
+#footer {
+    padding: 40px
+}
+
 
 .links-bar a {
     display: inline-block;

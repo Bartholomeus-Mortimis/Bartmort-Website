@@ -11,7 +11,7 @@
     --primary_color: rgb(83, 83, 83);
     --secondary_color: black;
     --accent1: #FE7743;
-    --accent2: #EFEEEA;
+    --accent2: #ffffff;
 }
 
 
@@ -25,30 +25,33 @@ body {
     font-size: 1.5rem;
 }
 
-
 a:hover {
     color: var(--accent1);
 }
+
 
 #background-img {
     position: fixed;
     z-index: -10;
     height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #main{
-    /*background-color: var(--primary_color);*/
+
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
-    /*border-style: dotted;*/
     
 }   
 
 #main-title {
-    padding-top: 60px;
+    font-size: xx-large;
+    padding-top: 80px;
 }
 
 #socials-bar {
@@ -102,7 +105,7 @@ a:hover {
 }
 
 #FriendFire {
-    background-color: #ffce96;  
+    background-color: #ffc98b;  
 }
 
 #CeintAsteroid {

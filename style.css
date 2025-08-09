@@ -1,15 +1,13 @@
 @font-face {
-    font-family: "Lilita One";
-    src: local(),
-        url(../assets/fonts/LilitaOne-Regular.ttf)
-    ;
+    font-family: "Lilita-One";
+    src: local(), url(./assets/fonts/LilitaOne-Regular.ttf);
     font-weight: bold;
 }
 
 
 :root {
     --primary_color: rgb(83, 83, 83);
-    --secondary_color: black;
+    --secondary_color: rgb(0, 0, 0);
     --accent1: #FE7743;
     --accent2: #ffffff;
 }
@@ -19,7 +17,7 @@ body {
     background-color: var(--secondary_color);
     color: var(--accent2);
 
-    font-family: 'Lilita One';
+    font-family: 'Lilita-One';
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
@@ -141,9 +139,9 @@ a:hover {
 
 @keyframes slide {
   0% {
-    transform: translate(0);
+    transform: translate(0%);
   }
   100% {
-    transform: translate(-100%); /* The image width */
+    transform: translate(-50%);
   }
 }
